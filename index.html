@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réforme Facturation Électronique 2026 - Guide et Ressources</title>
+    <meta name="description" content="Tout savoir sur la réforme de la facturation électronique en France. Calendrier, obligations, plateformes agréées et ressources officielles.">
+    <meta name="keywords" content="facturation électronique, e-invoicing, France, 2026, PA, PDP, réforme fiscale">
+    <link rel="canonical" href="https://[username].github.io/facturation-electronique-2026/">
+    <style>
+        :root {
+            --primary: #0969da;
+            --primary-dark: #0550ae;
+            --text: #1f2328;
+            --text-light: #656d76;
+            --bg: #ffffff;
+            --bg-subtle: #f6f8fa;
+            --border: #d0d7de;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #24292f 0%, #0969da 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            margin-top: 20px;
+        }
+        
+        /* Main content */
+        main {
+            padding: 48px 0;
+        }
+        
+        section {
+            margin-bottom: 48px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin: 24px 0 12px 0;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        
+        ul, ol {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Info box */
+        .info-box {
+            background: var(--bg-subtle);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 16px;
+            margin: 24px 0;
+        }
+        
+        .info-box.warning {
+            background: #fff8c5;
+            border-color: #d4a72c;
+        }
+        
+        .info-box strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 24px;
+            border-left: 2px solid var(--primary);
+            margin: 24px 0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-bottom: 24px;
+        }
+        
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -29px;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.9375rem;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+        
+        th {
+            background: var(--bg-subtle);
+            font-weight: 600;
+        }
+        
+        /* CTA */
+        .cta-section {
+            background: var(--bg-subtle);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 32px;
+            text-align: center;
+            margin: 32px 0;
+        }
+        
+        .cta-section h3 {
+            margin-top: 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-top: 16px;
+            transition: background 0.2s;
+        }
+        
+        .btn:hover {
+            background: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        /* Resources grid */
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+        
+        .resource-card {
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 16px;
+            background: var(--bg);
+        }
+        
+        .resource-card h4 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        
+        .resource-card p {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+        
+        .resource-card .source {
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--bg-subtle);
+            border-top: 1px solid var(--border);
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.875rem;
+        }
+        
+        footer a {
+            color: var(--text-light);
+        }
+        
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 1.75rem;
+            }
+            
+            header p {
+                font-size: 1rem;
+            }
+            
+            .container {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Facturation Électronique 2026</h1>
+            <p>Guide complet sur la réforme obligatoire pour toutes les entreprises françaises</p>
+            <span class="badge">Mis à jour : Avril 2026</span>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Introduction -->
+        <section>
+            <h2>Contexte de la réforme</h2>
+            <p>
+                La facturation électronique devient obligatoire en France pour toutes les transactions B2B. 
+                Cette réforme, initiée par la <a href="https://www.economie.gouv.fr/cedef/facturation-electronique-entreprises" target="_blank" rel="noopener">Direction Générale des Finances Publiques (DGFiP)</a>, 
+                vise à moderniser les échanges commerciaux et à lutter contre la fraude à la TVA, estimée à plus de 
+                <a href="https://www.ccomptes.fr/fr/publications/la-fraude-aux-prelevements-obligatoires" target="_blank" rel="noopener">15 milliards d'euros par an</a> selon la Cour des comptes.
+            </p>
+            
+            <div class="info-box warning">
+                <strong>⚠️ Obligation légale</strong>
+                Toutes les entreprises assujetties à la TVA doivent utiliser une Plateforme Agréée (PA) pour émettre et recevoir leurs factures électroniques. 
+                Le non-respect de cette obligation entraîne des sanctions financières.
+            </div>
+        </section>
+        
+        <!-- Timeline -->
+        <section>
+            <h2>Calendrier de déploiement</h2>
+            <p>
+                Le déploiement s'effectue progressivement selon la taille des entreprises, conformément à 
+                l'<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044794880" target="_blank" rel="noopener">article 26 de la loi de finances rectificative 2022</a> :
+            </p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">1er septembre 2026</span>
+                    <p>Obligation de réception pour toutes les entreprises. Obligation d'émission pour les grandes entreprises (+5000 salariés).</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">1er septembre 2027</span>
+                    <p>Obligation d'émission pour les ETI (250 à 5000 salariés).</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">1er septembre 2028</span>
+                    <p>Obligation d'émission pour les PME et micro-entreprises.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- What is a PA -->
+        <section>
+            <h2>Qu'est-ce qu'une Plateforme Agréée (PA) ?</h2>
+            <p>
+                Une Plateforme Agréée (anciennement PDP - Plateforme de Dématérialisation Partenaire) est un opérateur 
+                immatriculé par l'administration fiscale pour assurer la transmission des factures électroniques entre entreprises 
+                et vers le Portail Public de Facturation (PPF).
+            </p>
+            
+            <h3>Rôle des PA</h3>
+            <ul>
+                <li>Convertir les factures au format <a href="https://fnfe-mpe.org/factur-x/" target="_blank" rel="noopener">Factur-X</a> (norme européenne EN 16931)</li>
+                <li>Transmettre les factures via le réseau Peppol ou directement au PPF</li>
+                <li>Assurer l'e-reporting des données de transaction à la DGFiP</li>
+                <li>Archiver les documents avec valeur probante (norme <a href="https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/" target="_blank" rel="noopener">eIDAS</a>)</li>
+            </ul>
+            
+            <h3>Liste des PA immatriculées</h3>
+            <p>
+                La liste officielle des plateformes agréées est publiée sur le site 
+                <a href="https://www.impots.gouv.fr/professionnel/la-facture-electronique-entre-entreprises" target="_blank" rel="noopener">impots.gouv.fr</a>. 
+                Pour comparer les fonctionnalités et tarifs des différentes PA selon vos besoins spécifiques, 
+                vous pouvez utiliser <a href="https://comparepdp.com" target="_blank">ComparePDP.com</a>, 
+                un comparateur indépendant des plateformes agréées.
+            </p>
+        </section>
+        
+        <!-- Comparison table -->
+        <section>
+            <h2>Critères de choix d'une PA</h2>
+            <p>Le choix d'une plateforme dépend de plusieurs facteurs :</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Critère</th>
+                        <th>Questions à se poser</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Taille d'entreprise</strong></td>
+                        <td>TPE, PME, ETI ou grande entreprise ?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Volume de facturation</strong></td>
+                        <td>Quelques factures par mois ou plusieurs centaines ?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Intégrations</strong></td>
+                        <td>Compatibilité avec votre ERP, logiciel de caisse, e-commerce ?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Comptabilité</strong></td>
+                        <td>Besoin d'un module comptable intégré ou connexion expert-comptable ?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Budget</strong></td>
+                        <td>Solutions gratuites disponibles pour les petits volumes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h3>Trouvez la PA adaptée à votre entreprise</h3>
+            <p>
+                Comparez les fonctionnalités, tarifs et avis des plateformes agréées pour faire le bon choix.
+            </p>
+            <a href="https://comparepdp.com/articles/pdp-facturation-electronique" class="btn" target="_blank">
+                Comparer les Plateformes Agréées
+            </a>
+        </div>
+        
+        <!-- Official resources -->
+        <section>
+            <h2>Ressources officielles</h2>
+            <p>Documentation et sources gouvernementales pour approfondir le sujet :</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h4><a href="https://www.economie.gouv.fr/cedef/facturation-electronique-entreprises" target="_blank" rel="noopener">Portail economie.gouv.fr</a></h4>
+                    <p>Présentation officielle de la réforme et FAQ</p>
+                    <span class="source">Ministère de l'Économie</span>
+                </div>
+                
+                <div class="resource-card">
+                    <h4><a href="https://www.impots.gouv.fr/professionnel/la-facture-electronique-entre-entreprises" target="_blank" rel="noopener">Guide DGFiP</a></h4>
+                    <p>Spécifications techniques et obligations légales</p>
+                    <span class="source">Direction Générale des Finances Publiques</span>
+                </div>
+                
+                <div class="resource-card">
+                    <h4><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044983835" target="_blank" rel="noopener">Article 289 bis du CGI</a></h4>
+                    <p>Base légale de l'obligation de facturation électronique</p>
+                    <span class="source">Légifrance</span>
+                </div>
+                
+                <div class="resource-card">
+                    <h4><a href="https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eInvoicing" target="_blank" rel="noopener">eInvoicing EU</a></h4>
+                    <p>Cadre européen et directive 2014/55/UE</p>
+                    <span class="source">Commission Européenne</span>
+                </div>
+                
+                <div class="resource-card">
+                    <h4><a href="https://fnfe-mpe.org/" target="_blank" rel="noopener">FNFE-MPE</a></h4>
+                    <p>Forum National de la Facture Électronique</p>
+                    <span class="source">Association professionnelle</span>
+                </div>
+                
+                <div class="resource-card">
+                    <h4><a href="https://www.bpifrance.fr/nos-actualites/facturation-electronique-ce-qui-change-pour-les-entreprises" target="_blank" rel="noopener">Guide BPI France</a></h4>
+                    <p>Accompagnement des TPE/PME dans la transition</p>
+                    <span class="source">Bpifrance</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Technical specs -->
+        <section>
+            <h2>Spécifications techniques</h2>
+            
+            <h3>Formats acceptés</h3>
+            <ul>
+                <li><strong>Factur-X</strong> : Format hybride PDF/A-3 avec données XML intégrées (profils minimum, basic, EN 16931)</li>
+                <li><strong>UBL</strong> : Universal Business Language, standard OASIS</li>
+                <li><strong>CII</strong> : Cross Industry Invoice, standard UN/CEFACT</li>
+            </ul>
+            
+            <h3>Mentions obligatoires</h3>
+            <p>
+                Conformément à l'<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006304466" target="_blank" rel="noopener">article 242 nonies A du CGI</a>, 
+                chaque facture doit comporter le numéro SIREN/SIRET, le numéro de TVA intracommunautaire, 
+                et les nouvelles mentions spécifiques à la facturation électronique (identifiant de la PA, statut du cycle de vie).
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>
+                Guide réalisé à partir des sources officielles gouvernementales.<br>
+                Pour comparer les plateformes agréées : <a href="https://comparepdp.com" target="_blank">ComparePDP.com</a>
+            </p>
+            <p style="margin-top: 16px;">
+                Dernière mise à jour : Avril 2026 | 
+                <a href="https://github.com/[username]/facturation-electronique-2026" target="_blank" rel="noopener">Code source</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
